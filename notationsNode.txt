@@ -1,0 +1,4 @@
+## Node modules
+    - Internos: Que é desenvolvido pelo dev
+    - Core: que vem na base do Node
+    - Externos: instalados via NPM
