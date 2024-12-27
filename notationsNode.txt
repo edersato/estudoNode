@@ -2,3 +2,32 @@
     - Internos: Que é desenvolvido pelo dev
     - Core: que vem na base do Node
     - Externos: instalados via NPM
+
+## Core modules
+    - Http: para criar servidores Http
+        - createServer
+        - listen
+        - statusCode
+        - end
+    - URL: modulo para trabalhar com URL
+        - parse (host, path, search, query, etc)
+
+    - Fs: File System, leitura e escrita de arquivos
+        - WriteFile (CREATE)
+        - Rename (UPADTE)
+        - AppendFile (UPDATE)
+        - Unlink (DELETE)
+
+    - Path: extrai informações de path de arquivos
+        - resolve: saber o caminho completo
+        - join: path dinamico, com var e valor fixo
+    
+    - ModuleOS - Extrai info do sistema
+
+## NPM
+    - init: cria npm's locais (utilizar -y para criação rápida)
+    - install: instala modulos externos
+    - save-dev: instala apenas para desenvolvimento
+    - npm update: atualiza modulo (npx npm-check-updates)
+    - script: cria rotinas no package.json (test, start, serve)
+
