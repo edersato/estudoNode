@@ -31,3 +31,10 @@
     - npm update: atualiza modulo (npx npm-check-updates)
     - script: cria rotinas no package.json (test, start, serve)
 
+## Template Engine - Express
+    - Render: usa-se o '{{}}' como parametro, alterando apenas a view
+    - If: é necessário usar {{#if nomeVar}} com fechamento de tags, para validar corretamente
+        - o else funciona no mesmo sentido, utilizando {{else}} como condicional
+    - Loops: utiliza-se o {{each}} ou o {{this}} para tratar arrays
+    - Abstração: utiliza-se o {{with Object}}, sem a necessidade de repetir a variavel (var.nomeObjeto)
+    - 

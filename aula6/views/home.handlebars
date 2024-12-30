@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handlebars</title>
+</head>
+<body>
+    <h1>Olá Handlebars</h1>
+    <p>O nome do usuario é <b>{{user.name}}</b> e a idade dele é de <b>{{user.age}}</b> anos </p>
+    
+    {{#if auth}}
+        <p>Usuário autenticado. <a href="/dashboard">Dashboard</a></p>
+    {{else}}
+        <p>Usuário não autenticado</p>
+    {{/if}}
+
+</body>
+</html>

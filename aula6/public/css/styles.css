@@ -1,0 +1,9 @@
+h1, h2 {
+    color: seagreen;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: springgreen;
+}
