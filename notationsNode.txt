@@ -37,4 +37,3 @@
         - o else funciona no mesmo sentido, utilizando {{else}} como condicional
     - Loops: utiliza-se o {{each}} ou o {{this}} para tratar arrays
     - Abstração: utiliza-se o {{with Object}}, sem a necessidade de repetir a variavel (var.nomeObjeto)
-    - 
