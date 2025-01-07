@@ -37,3 +37,11 @@
         - o else funciona no mesmo sentido, utilizando {{else}} como condicional
     - Loops: utiliza-se o {{each}} ou o {{this}} para tratar arrays
     - Abstração: utiliza-se o {{with Object}}, sem a necessidade de repetir a variavel (var.nomeObjeto)
+
+## Sequelize 
+    - ORM: Object Relational Mapper
+    - Abstrai as queries, para facilitar as useCases
+    - Baseada em promises (then, catch)
+    - precisa sempre criar uma Model
+    - o metodo sync faz a criação das tables baseada na model
+
