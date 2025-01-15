@@ -4,6 +4,14 @@
     <div class="item">
         <h2> {{this.name}} </h2>
         <p> {{this.occupation}} </p>
+        <div class="actions">
+            <a href="/users/{{this.id}}" class="detailsBtn">Ver detalhes</a>
+            <a href="/users/edit/{{this.id}}" class="detailsBtn">Editar</a>
+
+            <form action="/users/delete/{{this.id}}" method="post">
+            <input type="submit" value="Excluir" class="deleteBtn">
+            </form>
+        </div>
     </div>
     {{/each}}
 </div>

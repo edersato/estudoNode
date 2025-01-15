@@ -70,3 +70,53 @@ input[type="submit"] {
     padding: 20px;
     flex: 1 1 30%;
 }
+
+.item h2, .item p {
+    margin-bottom: .8em;
+}
+
+.actions {
+    display: flex;
+}
+
+.actions a, .actions input {
+    border: 1px solid #BBB;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 5px;
+    font-size: 15px;
+    color: #000;
+    cursor: pointer;
+}
+
+.actions .detailsBtn {
+    border-color: lightskyblue;
+    color: lightskyblue;
+    margin-right: 10px;
+}
+.actions .deleteBtn {
+    border-color: firebrick;
+    color: firebrick;
+}
+
+
+.address-container {
+    margin:  1em auto;
+    padding: 1em;
+    border:  1px solid white;
+}
+
+.address-container form {
+width: 300px;
+}
+
+.address-list div {
+    margin: 1em 0;
+    padding: 1em 0;
+    display: flex;
+}
+
+.address-list form {
+    margin-left: 1em;
+}

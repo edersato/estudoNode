@@ -44,4 +44,5 @@
     - Baseada em promises (then, catch)
     - precisa sempre criar uma Model
     - o metodo sync faz a criação das tables baseada na model
+    - o metodo where é aplicado diretamente no codigo, servindo como constraint direta
 
