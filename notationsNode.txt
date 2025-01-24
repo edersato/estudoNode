@@ -46,3 +46,19 @@
     - o metodo sync faz a criação das tables baseada na model
     - o metodo where é aplicado diretamente no codigo, servindo como constraint direta
 
+##Node e MongoDB
+
+    - NoSQL:
+        - é um db baseados em documentos
+        - sem queries mas usando metodos de classes
+        - collections definem o sistema
+        - Não é necessario definir estrutura
+    
+    - MongoDB:
+        - DB orientado a documentos
+        - dados ficam salvos em estrutura parecida ao json
+        - possui indices primarios e secundarios
+        - BSON: Variação de Json do MongoDB
+        - para criar um db, o metodo "use" faz a chamada + o nome do db
+        - para criar uma collection, usa-se "insertOne"
+        - para buscar uma collection, usa-se "findOne"
